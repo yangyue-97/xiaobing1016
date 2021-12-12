@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gun.h
+string
+-
+
+../include/solider.h
+string
+-
+gun.h
+../include/gun.h
+
+/home/yangyue/workspace/xiaobing1016/7/main.cpp
+gun.h
+/home/yangyue/workspace/xiaobing1016/7/gun.h
+solider.h
+/home/yangyue/workspace/xiaobing1016/7/solider.h
+
+/home/yangyue/workspace/xiaobing1016/7/src/gun.cpp
+gun.h
+/home/yangyue/workspace/xiaobing1016/7/src/gun.h
+iostream
+-
+
+/home/yangyue/workspace/xiaobing1016/7/src/solider.cpp
+solider.h
+/home/yangyue/workspace/xiaobing1016/7/src/solider.h
+
